@@ -33,20 +33,20 @@ Now you need to update your system and install necessary packages:
     $ apt-get update
     $ apt-get install sudo nano git
     $ cd ~
-    $ git clone https://github.com/suncoin-network/pool.git
+    $ git clone https://github.com/suncoin-network/miningpool.git
     
 ## 4. Configure Setup Script
 
 You need to add your ip address to the install script. Replace **<ip>** with your public IP address and run:
 
-    $ sudo sed -i s/PLACEHOLDERYOURIP/<ip>/g  ~/pool/install.sh
+    $ sudo sed -i s/PLACEHOLDERYOURIP/<ip>/g  ~/miningpool/install.sh
     
 ## 5. Run Installation
 
 Now can install the mining pool via:
 
     $ cd ~
-    $ bash pool/install.sh
+    $ bash miningpool/install.sh
     
 Check pre-configured values and hit enter to install.
 
